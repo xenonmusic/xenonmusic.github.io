@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Special+Gothic+Expanded+One')
 
-.grid-2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
 }
 
 body{
