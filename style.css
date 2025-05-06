@@ -86,6 +86,7 @@ a {
 .section-1{
     padding-top: 10vh;
     text-align: center;
+    flex-direction: row;
 }
 
 .section-1 p{
@@ -107,6 +108,7 @@ a {
 .section-2{
     padding-top: 1vh;
     width: 60%;
+    flex-direction: row;
 }
 
 .section-2 h2{
@@ -150,6 +152,7 @@ a {
 @media(max-width:580px){
     .flex-grid {
         display: flex;
+         flex-direction: column;
     }
     .section-1{
         padding:0;
