@@ -1,6 +1,14 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
 body {
 	padding: 2rem;
-	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+	font-family: Inter, sans-serif;
 }
 
 h1 {
@@ -26,3 +34,4 @@ p {
 .card p:last-child {
 	margin-bottom: 0;
 }
+
