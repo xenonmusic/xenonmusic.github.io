@@ -1,15 +1,17 @@
 :root {
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
 }
 @supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
+  :root { font-family: "InterVariable", sans-serif; }
 }
 
 body {
-	padding: 2rem;
-	font-family: Inter, sans-serif;
+	padding: 0rem;
+	font-family: "Inter", sans-serif;
 }
+
+
 
 h1 {
 	font-size: 16px;
@@ -35,3 +37,70 @@ p {
 	margin-bottom: 0;
 }
 
+        body {
+            color: #e0e0e0;
+            font-family: "Inter", sans-serif;
+          }
+        .xenon-btn {
+            background: linear-gradient(to bottom, #3a5a78, #1d333b);
+            border: 1px solid #4a6b8a;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+          }
+        .xenon-btn:hover {
+            background: linear-gradient(to top, #4a6b8a, #3a5a78);
+            box-shadow: 0 0 10px rgba(58, 90, 120, 0.5);
+          }
+
+        .skill-pill {
+            background: rgba(58, 90, 120, 0.3);
+            border: 1px solid #3a5a78;
+        }
+
+        .products-pill {
+            background: rgba(58, 90, 120, 0.3);
+            border: 1px solid #3a5a78;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .shadow-animate {
+         box-shadow: 0px 0px 20px 2px #141D25;
+         animation: shadows 1.5s infinite;
+        }
+
+        @keyframes shadows {
+         0% {
+          text-shadow: #141D25 0 0 5px;
+          box-shadow: 0px 0px 60px 2px #141D25, 0.4;
+        }
+        50% {
+          text-shadow: #5DCCFF 0 0 5px;
+          box-shadow: 0px 0px 60px 2px #5DCCFF;
+        }
+        75% {
+          text-shadow: #273C4F 0 0 5px;
+          box-shadow: 0px 0px 60px 2px #273C4F, 0.7;
+        }
+        100% {
+          text-shadow: #141D25 0 0 5px;
+          box-shadow: 0px 0px 60px 2px #141D25, 0.7;
+        }
+}
+
+        .audio-player {
+            background: rgba(20, 20, 20, 0.8);
+            border: 1px solid #3a5a78;
+        }
+        input, textarea {
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid #3a5a78;
+        }
+        .header-glow {
+            text-shadow: 0 0 8px rgba(58, 90, 120, 0.7);
+        }
+        .panel {
+            background: rgba(15, 15, 15, 0.9);
+            border: 1px solid #2a3a4a;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+        }
