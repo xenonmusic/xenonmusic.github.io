@@ -91,13 +91,16 @@ body {
     background: rgba(20, 20, 20, 0.8);
     border: 1px solid #3a5a78;
 }
+
 input, textarea {
     background: rgba(30, 30, 30, 0.8);
     border: 1px solid #3a5a78;
 }
+
 .header-glow {
     text-shadow: 0 0 8px rgba(58, 90, 120, 0.7);
 }
+
 .panel {
     background: rgba(15, 15, 15, 0.9);
     border: 1px solid #2a3a4a;
